@@ -8,7 +8,7 @@ var gamePattern = [];
 
 var started = false;
 var level = 0;
-$(document).keypress(function () {
+$("h1").click(function () {
     if (!started) {
         $("h1").text("Level " + level);
         nextSequence();
